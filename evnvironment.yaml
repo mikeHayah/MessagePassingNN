@@ -1,0 +1,19 @@
+name: env-gnn
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - matplotlib
+  - pip
+  - torch_geometric
+  - pytorch-lightning
+  - pip:
+      - dgl
+      - tqdm
