@@ -27,4 +27,4 @@ if __name__ == "__main__":
     data = Data(x=x, edge_index=edge_index.t().contiguous())
 
     out1 = run_GCNConv(data)
-    out2 = run_DynamicEdgeConv(data)
+    # out2 = run_DynamicEdgeConv(data)
